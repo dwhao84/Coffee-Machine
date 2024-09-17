@@ -1,13 +1,5 @@
 from menu import MENU
 
-print(MENU)
-
-resources = {
-    "water": 300,
-    "milk": 200,
-    "coffee": 100,
-}
-
 # 製作 3種口味 (Makes 3 hot flavours)
 # 1. Expresso
 # 2. Latte
@@ -19,16 +11,39 @@ resources = {
 # Nickel:  $0.05
 # Penny:   $0.01
 
+# print(MENU)
+
+resources = {
+    "water": 300,
+    "milk": 200,
+    "coffee": 100,
+    "money": 50
+}
+
+# 顯示目前庫存數:
+def show_report():
+    water  = resources["water"]
+    milk   = resources["milk"]
+    coffee = resources["coffee"]
+    money  = resources["money"]
+    print(f"Water:{ water }ml \nmilk: { milk }ml \ncoffee: { coffee }g \nmoney: $ {money}")
+
 # 判斷要產生哪一種功能:
 def check_input(input):
     if input == "expresso":
-        print("Expresso")
+        print(MENU["espresso"]["ingredients"])
+
     elif input == "latte":
-        print("latte")
+        print(MENU["latte"]["ingredients"])
+
     elif input == "cappuccino":
-        print("cappuccino")
-    elif input == "result":
-        print("Result")
+        print(MENU["cappuccino"]["ingredients"])
+
+    elif input == "report":
+        show_report()
+
+    elif input == "off":
+        print("Coffee Machine is turning off.")
     else:
         print("Wrong entering")
 
@@ -40,10 +55,10 @@ def calculate(quarter, dime, nickel, penny):
 
 # Requirements
 # TODO: 1. Print report
-result = input("What would you like? ( Expresso / Latte / Cappuccino): ").lower()
+prompt = input("What would you like? ( Expresso / Latte / Cappuccino): ").lower()
 
 # TODO: 2. Check resources sufficient? 確認資源是否足夠
-check_input(result)
+check_input(prompt)
 
 # TODO: 3. Process coin
 print("Please insert coins.")
