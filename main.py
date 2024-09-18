@@ -87,7 +87,6 @@ while should_continue:
         
         transaction_checking(inserted_coin=inserted_coin)
         
-        # TODO: 5. Make coffee.
         calculated_leftover(prompts=prompt)  # 包含selected_drinks_cost
         print(f"Here is your {user_selection}. Enjoy!")
         
@@ -99,8 +98,7 @@ while should_continue:
         user_selection = prompt
         
         transaction_checking(inserted_coin=inserted_coin)
-        
-        # TODO: 5. Make coffee.
+
         calculated_leftover(prompts=prompt)  # 包含selected_drinks_cost
         print(f"Here is your {user_selection}. Enjoy!")
     
@@ -113,7 +111,6 @@ while should_continue:
         user_selection = prompt
         transaction_checking(inserted_coin=inserted_coin)
         
-        # TODO: 5. Make coffee.
         calculated_leftover(prompts=prompt)  # 包含selected_drinks_cost
         print(f"Here is your {user_selection}. Enjoy!")
         
