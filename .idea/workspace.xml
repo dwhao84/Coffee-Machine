@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46966f3b-9aab-4750-87b9-ee3207abace6" name="Changes" comment="Create show report function.&#10;And changed the input naming.">
-      <change afterPath="$PROJECT_DIR$/Requirements.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Coffee Machine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Coffee Machine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="46966f3b-9aab-4750-87b9-ee3207abace6" name="Changes" comment="Adjust naming.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -32,12 +29,12 @@
     &quot;assignee&quot;: &quot;dwhao84&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dwhao84/Coffee-Machine.git",
-    "accountId": "d7383930-bb69-4298-b0ca-6391f1c4693c"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dwhao84/Coffee-Machine.git&quot;,
+    &quot;accountId&quot;: &quot;d7383930-bb69-4298-b0ca-6391f1c4693c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -88,7 +85,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726576682511</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create Requirements.md.&#10;Adjust the functions and refactor the code.">
+      <option name="closed" value="true" />
+      <created>1726632306984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726632306984</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adjust naming.">
+      <option name="closed" value="true" />
+      <created>1726632347722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726632347722</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +130,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create the menu.py, and create small function for calculation." />
     <MESSAGE value="Create show report function.&#10;And changed the input naming." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create show report function.&#10;And changed the input naming." />
+    <MESSAGE value="Create Requirements.md.&#10;Adjust the functions and refactor the code." />
+    <MESSAGE value="Adjust naming." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjust naming." />
   </component>
 </project>

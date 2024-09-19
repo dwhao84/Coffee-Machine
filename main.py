@@ -32,6 +32,7 @@ def show_report():
     print(f"Water:{ water }ml \nmilk: { milk }ml \ncoffee: { coffee }g \nmoney: $ {money}")
 
 # TODO: 2. Check resources sufficient? 確認資源是否足夠
+# FIXME: 這裡的寫法，要再調整一下。 240919
 def entered_prompt(prompts):
     if MENU[prompts]["ingredients"]["water"] > resources["water"]:
         print("Sorry there is not enough water.")
@@ -43,6 +44,7 @@ def entered_prompt(prompts):
         print("We have enough resources, We're ready to go.")
 
 # Make sure the leftover resources.
+# FIXME: 這裡的寫法，要再調整一下。 240919
 def calculated_leftover(prompts):
     leftover_water = resources["water"] - MENU[prompts]["ingredients"]["water"]
     leftover_milk = resources["milk"] - MENU[prompts]["ingredients"]["milk"]
@@ -76,6 +78,7 @@ while should_continue:
     # Requirements
     prompt = input("What would you like? ( Expresso / Latte / Cappuccino): ").lower()
 
+# FIXME: 這裡的寫法，要再調整一下。 240919
     # 判斷要產生哪一種功能:
     if prompt == "expresso":
         selected_drinks_cost = MENU[prompt]["cost"]
